@@ -1,26 +1,19 @@
 import { useState } from 'react'
-import BlogPost from './components/BlogPost';
+import MovieList from './components/MovieList';
 import './App.css'
 
 function App() {
-  // Define author objects for clarity
-  const alice = { name: "Alice", email: "alice@example.com", role: "Developer" };
-  const bob = { name: "Bob", email: "bob@example.com", role: "Designer" };
+
+  const movies = [
+    { id: 1, title: "The Matrix", director: "Wachowski", year: 1999, rating: 4 },
+    { id: 2, title: "Inception", director: "Nolan", year: 2010, rating: 5 },
+    { id: 3, title: "The Dark Knight", director: "Nolan", year: 2008, rating: 5 },
+    { id: 4, title: "Interstellar", director: "Nolan", year: 2014, rating: 5 }
+  ];
 
   return (
     <>
-     <BlogPost 
-        title="Learning React"
-        author={alice}
-        content="React makes building UIs fun and component-based..."
-        date="Jan 15"
-      />
-      <BlogPost 
-        title="React Tips"
-        author={bob}
-        content="Here are my top tips for writing clean React code..."
-        date="Jan 20"
-      />
+      <MovieList movies={movies} />
     </>
   )
 }

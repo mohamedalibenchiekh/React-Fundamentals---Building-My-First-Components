@@ -1,0 +1,40 @@
+.movie-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  min-width: 200px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.movie-title {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.movie-director, .movie-year {
+  margin: 0.3rem 0;
+  color: #666;
+}
+
+.movie-rating {
+  margin: 0.5rem 0 0 0;
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 1.2rem;
+}
+
+.rating-number {
+  color: #888;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
