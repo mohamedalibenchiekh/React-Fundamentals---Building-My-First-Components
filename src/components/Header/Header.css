@@ -1,0 +1,37 @@
+.portfolio-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.portfolio-header h1 {
+  font-size: 3rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.portfolio-header h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin: 0 0 2rem 0;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.header-nav a:hover {
+  background: rgba(255,255,255,0.2);
+}

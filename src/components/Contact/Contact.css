@@ -1,0 +1,43 @@
+.contact-section {
+  padding: 4rem 2rem;
+  background: white;
+}
+
+.contact-section h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.contact-item:hover {
+  transform: translateX(10px);
+  background: #e9ecef;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.contact-text {
+  color: #555;
+  font-size: 1.1rem;
+}
