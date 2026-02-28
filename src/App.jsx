@@ -144,7 +144,7 @@ function App() {
           tagline="Full Stack Developer & React Enthusiast" 
         />
         <About 
-          profileImage="https://via.placeholder.com/300"
+          profileImage="https://imgs.search.brave.com/c7KGb0FkFv6yLhMtglHUH-OxPY36ZtEVDkLe--DhVb8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9mcm9udGVuZC1k/ZXZlbG9wZXItaW50/ZWdyYXRpbmctdGhp/cmRwYXJ0eS1qYXZh/c2NyaXB0LWxpYnJh/cmllcy1lbmhhbmNl/ZC11c2VyLWV4cGVy/aWVuY2VzXzEzMTQ0/NjctMjEzMDcyLmpw/Zz9zZW10PWFpc19o/eWJyaWQmdz03NDAm/cT04MA"
           bio="I'm a passionate developer with 5 years of experience building web applications. I love creating elegant solutions to complex problems and am always eager to learn new technologies."
           skills={['React', 'JavaScript', 'HTML5', 'CSS3', 'Node.js', 'Python']}
         />
@@ -152,7 +152,7 @@ function App() {
         <Contact 
           email="mohamed.ali.bencheikh@horizon-university.tn"
           github="github.com/mohamedalibenchiekh"
-          linkedin="linkedin.com/in/mohamedalibenchiekh"
+          linkedin="linkedin.com/in/mohamed-ali-ben-cheikh-589b9b235/"
         />
         <Footer name="Mohamed Ali Ben Cheikh" />
       </section>

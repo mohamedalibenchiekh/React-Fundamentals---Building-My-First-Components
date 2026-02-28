@@ -21,3 +21,11 @@
   margin-top: 0;
   color: #333;
 }
+
+.component-card img {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}

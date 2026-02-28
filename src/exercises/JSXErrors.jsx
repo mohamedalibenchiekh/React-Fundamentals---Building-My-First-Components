@@ -1,4 +1,5 @@
 import './JSXErrors.css';
+import catImage from './cat.jpg';
 
 // ERROR 1: Missing wrapper element - can't return multiple elements without a parent
 // Corrected version:
@@ -27,7 +28,7 @@ function FixedComponent2() {
 function FixedComponent3() {
   return (
     <div className="container">
-      <img src="cat.jpg" alt="A cute cat" />
+      <img src={catImage} alt="A cute cat" />
       <p>A paragraph</p>
     </div>
   );
