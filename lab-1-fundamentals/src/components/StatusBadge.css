@@ -1,0 +1,36 @@
+.status-badge {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  margin: 1rem;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.status-indicator {
+  font-size: 1.5rem;
+}
+
+.status-indicator.online {
+  color: #28a745;
+}
+
+.status-indicator.offline {
+  color: #dc3545;
+}
+
+.status-text.online {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.status-text.offline {
+  color: #dc3545;
+  font-weight: bold;
+}
