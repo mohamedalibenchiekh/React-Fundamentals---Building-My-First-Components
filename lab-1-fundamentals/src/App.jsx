@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import Greeting from './components/Greeting';
-import StatusBadge from './components/StatusBadge';
+import UserCard from './components/UserCard';
 import './App.css'
 
 function App() {
@@ -8,9 +7,9 @@ function App() {
 
   return (
     <>
-      <Greeting />
-      <h2>Status Examples:</h2>
-      <StatusBadge />
+      <UserCard name="Alice" email="alice@example.com" role="Developer" />
+      <UserCard name="Bob" email="bob@example.com" role="Designer" />
+      <UserCard name="Charlie" email="charlie@example.com" role="Manager" />
     </>
   )
 }
