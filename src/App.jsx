@@ -1,27 +1,26 @@
 import { useState } from 'react'
-import Card from './components/Card';
+import BlogPost from './components/BlogPost';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // Define author objects for clarity
+  const alice = { name: "Alice", email: "alice@example.com", role: "Developer" };
+  const bob = { name: "Bob", email: "bob@example.com", role: "Designer" };
 
   return (
     <>
-      <Card title="Card 1">
-        <p>This is the content inside Card 1</p>
-      </Card>
-      
-      <Card title="Card 2">
-        <p>Different content!</p>
-        <button>Click me</button>
-      </Card>
-      
-      <Card title="Card 3">
-        <ul>
-          <li>Item A</li>
-          <li>Item B</li>
-        </ul>
-      </Card>
+     <BlogPost 
+        title="Learning React"
+        author={alice}
+        content="React makes building UIs fun and component-based..."
+        date="Jan 15"
+      />
+      <BlogPost 
+        title="React Tips"
+        author={bob}
+        content="Here are my top tips for writing clean React code..."
+        date="Jan 20"
+      />
     </>
   )
 }
