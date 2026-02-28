@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Product from './components/Product';
+import Card from './components/Card';
 import './App.css'
 
 function App() {
@@ -7,9 +7,21 @@ function App() {
 
   return (
     <>
-      <Product title="Laptop" price={999} inStock={true} rating={4.5} />
-      <Product title="Phone" price={499} inStock={false} rating={4} />
-      <Product title="Headphones" price={99} inStock={true} rating={5} />
+      <Card title="Card 1">
+        <p>This is the content inside Card 1</p>
+      </Card>
+      
+      <Card title="Card 2">
+        <p>Different content!</p>
+        <button>Click me</button>
+      </Card>
+      
+      <Card title="Card 3">
+        <ul>
+          <li>Item A</li>
+          <li>Item B</li>
+        </ul>
+      </Card>
     </>
   )
 }
