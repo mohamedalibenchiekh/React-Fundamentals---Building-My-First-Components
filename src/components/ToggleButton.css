@@ -1,0 +1,49 @@
+.toggle-container {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+}
+
+.toggle-button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.toggle-button:hover {
+  background: #764ba2;
+}
+
+.content-area {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.content-area.visible {
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.content-area.hidden {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
+.visible-message {
+  color: #155724;
+  margin: 0;
+}
+
+.hidden-message {
+  color: #6c757d;
+  margin: 0;
+}

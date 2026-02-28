@@ -1,19 +1,17 @@
 import { useState } from 'react'
-import MovieList from './components/MovieList';
+import ToggleButton from './components/ToggleButton';
 import './App.css'
 
 function App() {
 
-  const movies = [
-    { id: 1, title: "The Matrix", director: "Wachowski", year: 1999, rating: 4 },
-    { id: 2, title: "Inception", director: "Nolan", year: 2010, rating: 5 },
-    { id: 3, title: "The Dark Knight", director: "Nolan", year: 2008, rating: 5 },
-    { id: 4, title: "Interstellar", director: "Nolan", year: 2014, rating: 5 }
-  ];
 
   return (
     <>
-      <MovieList movies={movies} />
+      <h2>Toggle Preview (Visible State)</h2>
+      <ToggleButton /> {/* Has isVisible = true hardcoded */}
+      
+      <h2>Toggle Preview (Hidden State)</h2>
+      <ToggleButton isVisible={false} /> {/* Passes isVisible = false */}
     </>
   )
 }
